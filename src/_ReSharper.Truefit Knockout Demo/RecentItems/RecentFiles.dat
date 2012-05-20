@@ -1,0 +1,63 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:TeamsController.cs" caret="343" fromTop="16" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:HomeController.cs" caret="365" fromTop="13" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:App_Start/f:NinjectWebCommon.cs" caret="2202" fromTop="30" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Entities/f:Person.cs" caret="130" fromTop="7" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:BaseController.cs" caret="462" fromTop="16" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Models/f:TeamModel.cs" caret="459" fromTop="16" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Models/f:TeamMemberModel.cs" caret="43" fromTop="1" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Models/f:PersonModel.cs" caret="0" fromTop="0" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/d:Helpers/f:JsonHtmlHelper.cs" caret="156" fromTop="6" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/f:PeopleMapping.cs" caret="247" fromTop="9" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/f:DemoMappings.cs" caret="282" fromTop="12" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Services/f:PeopleService.cs" caret="0" fromTop="0" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/f:Global.asax.cs" caret="1129" fromTop="35" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Services/f:TeamService.cs" caret="501" fromTop="17" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Services/f:IPeopleService.cs" caret="228" fromTop="9" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Entities/f:TeamMember.cs" caret="231" fromTop="8" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Services/f:ServiceBase.cs" caret="299" fromTop="14" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/f:packages.config" caret="0" fromTop="0" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Services/f:ITeamService.cs" caret="0" fromTop="0" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/f:DemoContext.cs" caret="1715" fromTop="31" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:PeopleController.cs" caret="430" fromTop="14" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Entities/f:Team.cs" caret="387" fromTop="11" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:Shared/f:_Layout.cshtml" caret="918" fromTop="23" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Scripts/d:People/f:index.js" caret="834" fromTop="30" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Content/f:People.css" caret="216" fromTop="16" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:People/f:Index.cshtml" caret="655" fromTop="21" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/d:Helpers/f:JsonHtmlHelper.cs" caret="362" fromTop="7" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/d:Helpers/f:JsonHtmlHelper.cs" caret="363" fromTop="11" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/d:Helpers/f:JsonHtmlHelper.cs" caret="129" fromTop="5" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:Shared/f:_Layout.cshtml" caret="1097" fromTop="30" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:PeopleController.cs" caret="950" fromTop="28" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:PeopleController.cs" caret="778" fromTop="27" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:App_Start/f:NinjectWebCommon.cs" caret="2211" fromTop="30" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/f:PeopleMapping.cs" caret="247" fromTop="17" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/f:PeopleMapping.cs" caret="247" fromTop="10" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/f:PeopleMapping.cs" caret="353" fromTop="10" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Infrastructure/f:DemoMappings.cs" caret="161" fromTop="7" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:BaseController.cs" caret="560" fromTop="29" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:BaseController.cs" caret="560" fromTop="28" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Controllers/f:BaseController.cs" caret="307" fromTop="13" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:People/f:Index.cshtml" caret="1250" fromTop="31" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Scripts/d:People/f:index.js" caret="786" fromTop="28" />
+    <File id="FC3BF05C-EC51-4683-9CEC-B36BD4169F33/d:Services/f:IPeopleService.cs" caret="228" fromTop="11" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/f:Global.asax.cs" caret="1278" fromTop="38" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:People/f:Index.cshtml" caret="1096" fromTop="24" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:People/f:Index.cshtml" caret="121" fromTop="2" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:Shared/f:_Layout.cshtml" caret="189" fromTop="5" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:People/f:Index.cshtml" caret="224" fromTop="9" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Content/f:People.css" caret="85" fromTop="10" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Content/f:People.css" caret="209" fromTop="12" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Content/f:People.css" caret="87" fromTop="5" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Content/f:People.css" caret="87" fromTop="5" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Content/f:People.css" caret="29" fromTop="1" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Scripts/d:People/f:index.js" caret="150" fromTop="4" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Scripts/d:People/f:index.js" caret="470" fromTop="14" />
+    <File id="624C9209-F750-44DC-A269-656ADDF7A05E/d:Views/d:People/f:Index.cshtml" caret="341" fromTop="13" />
+  </RecentEdits>
+</RecentFiles>

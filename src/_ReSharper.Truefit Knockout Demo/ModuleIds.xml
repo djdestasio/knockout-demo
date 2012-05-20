@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="FC3BF05C-EC51-4683-9CEC-B36BD4169F33" ModuleId="Truefit.KnockoutDemo.Domain" />
+  <Module PersistentId="624C9209-F750-44DC-A269-656ADDF7A05E" ModuleId="Truefit.KnockoutDemo.Web" />
+</Modules>

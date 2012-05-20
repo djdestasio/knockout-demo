@@ -1,0 +1,17 @@
+﻿div.people {
+  margin: 15px;
+}
+
+div.person {
+  clear: both;
+  width: 100%;
+}
+
+div.first-name, 
+div.last-name, 
+div.position, 
+div.actions {
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
