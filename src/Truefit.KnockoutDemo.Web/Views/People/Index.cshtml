@@ -11,8 +11,16 @@
 }
 
 
-<h2>People <span data-bind="text: '('  + people().length +')'"></span> <button id="AddPerson" data-bind="click: addPerson">Add Person</button></h2>
-@using(Html.BeginForm("SaveAll", "People", FormMethod.Post, new { id = "PeopleForm" })) {
+<h2>People <span data-bind="text: '('  + people().length +')'"></span></h2>
+
+<div id="groupings" data-bind="foreach: positionGroups">
+    <div>
+        <span data-bind="text: position"></span> : <span data-bind="text: count"></span>
+    </div>
+</div>
+
+@using (Html.BeginForm("SaveAll", "People", FormMethod.Post, new {id = "PeopleForm"}))
+{
     <div class="people" data-bind="foreach: people">
         <div class="person">
             <input type="hidden" data-bind="value: Id, uniqueName: true"/>
@@ -33,14 +41,16 @@
             </div>
         </div>
     </div>
-	<div class="actions">
+
+    <div class="actions">
+        <button id="AddPerson" data-bind="click: addPerson">Add Person</button>
         <input type="submit" value="Save" />
-	</div>
+    </div>
 }
 
 @section Scripts
 {
-		<script type="text/javascript" src="@Url.Content("~/Scripts/People/index.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/People/index.js")"> </script>
     <script type="text/javascript">
         demo.deletePersonUrl = '@Url.Action("Delete", "People")';
         demo.personModel.init(@Html.Json(Model));

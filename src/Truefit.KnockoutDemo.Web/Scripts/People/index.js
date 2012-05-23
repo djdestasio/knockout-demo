@@ -3,10 +3,10 @@
 
         var model = function (serverModel) {
             var self = this;
-            this.people = ko.observableArray(serverModel || []);
+            self.people = ko.observableArray(serverModel || []);
 
             // adds a person.
-            this.addPerson = function () {
+            self.addPerson = function () {
                 this.people.push({
                     Id: 0,
                     FirstName: '',
@@ -19,7 +19,7 @@
             };
 
             // removes a person.
-            this.removePerson = function (person) {
+            self.removePerson = function (person) {
                 if (confirm("Are you sure you want to delete this person")) {
                     var url = demo.deletePersonUrl + '/' + person.Id;
                     $.post(url, function () {
@@ -29,7 +29,7 @@
             };
 
             // saves all new / modified people
-            this.save = function () {
+            self.save = function () {
                 var form = $('#PeopleForm'),
                     saveUrl = form.attr('action');
 
@@ -44,6 +44,29 @@
                     }
                 });
             };
+
+            // group the positions for the people in the list.
+            self.positionGroups = ko.computed(function () {
+                var people = self.people();
+                var countedPositions = [];
+                var positionDetail = [];
+
+                ko.utils.arrayForEach(people, function (person) {
+                    var position = person.Position;
+
+                    if (countedPositions.indexOf(position) < 0) {
+                        var matches = ko.utils.arrayFilter(self.people(), function(p) {
+                            return p.Position == position;
+                        });
+
+                        countedPositions.push(position);
+                        positionDetail.push({ position: position.length > 0 ? position : 'Unknown', count: matches.length });
+                    }
+                });
+
+                return positionDetail;
+
+            }, self);
         };
 
         return {
