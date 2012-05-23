@@ -15,6 +15,5 @@ namespace Truefit.KnockoutDemo.Web.Controllers
         {
             return View();
         }
-
     }
 }

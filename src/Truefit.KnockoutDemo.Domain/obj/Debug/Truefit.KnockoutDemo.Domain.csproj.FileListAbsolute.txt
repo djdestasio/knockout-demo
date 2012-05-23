@@ -8,3 +8,13 @@ C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Tr
 C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Truefit.KnockoutDemo.Domain\bin\Debug\Ninject.xml
 C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Truefit.KnockoutDemo.Domain\obj\Debug\Truefit.KnockoutDemo.Domain.dll
 C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Truefit.KnockoutDemo.Domain\obj\Debug\Truefit.KnockoutDemo.Domain.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\Truefit.KnockoutDemo.Domain.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\Truefit.KnockoutDemo.Domain.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\EntityFramework.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\Ninject.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\EntityFramework.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\Ninject.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\bin\Debug\Ninject.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\obj\Debug\Truefit.KnockoutDemo.Domain.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Domain\obj\Debug\Truefit.KnockoutDemo.Domain.pdb

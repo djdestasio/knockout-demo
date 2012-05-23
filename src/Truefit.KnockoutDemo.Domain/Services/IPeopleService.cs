@@ -5,6 +5,8 @@ namespace Truefit.KnockoutDemo.Domain.Services
 {
     public interface IPeopleService
     {
-        IEnumerable<Person> All { get; } 
+        IEnumerable<Person> All { get; }
+        void InsertOrUpdate(IEnumerable<Person> people);
+        void Delete(int id);
     }
 }

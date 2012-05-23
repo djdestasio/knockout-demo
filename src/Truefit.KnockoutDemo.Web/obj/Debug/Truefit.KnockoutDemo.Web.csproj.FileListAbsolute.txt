@@ -22,3 +22,27 @@ C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Tr
 C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Mvc.xml
 C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Truefit.KnockoutDemo.Web\obj\Debug\Truefit.KnockoutDemo.Web.dll
 C:\Users\Dominick\Documents\Visual Studio 2010\Projects\Truefit Knockout Demo\Truefit.KnockoutDemo.Web\obj\Debug\Truefit.KnockoutDemo.Web.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Truefit.KnockoutDemo.Web.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Truefit.KnockoutDemo.Web.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\AutoMapper.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\EntityFramework.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Newtonsoft.Json.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Common.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Mvc.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Truefit.KnockoutDemo.Domain.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\WebActivator.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Truefit.KnockoutDemo.Domain.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\AutoMapper.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\EntityFramework.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Newtonsoft.Json.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Common.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Common.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Mvc.pdb
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\bin\Ninject.Web.Mvc.xml
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\obj\Debug\Truefit.KnockoutDemo.Web.dll
+D:\Workspace\truefit\Truefit Knockout Demo\src\Truefit.KnockoutDemo.Web\obj\Debug\Truefit.KnockoutDemo.Web.pdb

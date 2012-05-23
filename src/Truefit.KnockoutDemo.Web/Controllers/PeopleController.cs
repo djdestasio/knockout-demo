@@ -29,8 +29,18 @@ namespace Truefit.KnockoutDemo.Web.Controllers
             return View(model);
         }
 
-        public JsonResult SaveAll(IEnumerable<PersonModel> people)
+        [HttpPost]
+        public JsonResult SaveAll(IEnumerable<PersonModel> models)
         {
+            var people = Mapper.Map<IEnumerable<PersonModel>, IEnumerable<Person>>(models);
+            PeopleService.InsertOrUpdate(people);
+            return Json("success");
+        }
+
+        [HttpPost]
+        public JsonResult Delete(int id)
+        {
+            PeopleService.Delete(id);
             return Json("success");
         }
 

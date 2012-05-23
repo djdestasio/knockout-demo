@@ -11,32 +11,38 @@
 }
 
 
-<h2>People <span data-bind="text: '('  + people().length +')'"></span></h2>
-
-<div class="people" data-bind="foreach: people">
-    <div class="person">
-        <div class="first-name">
-            <label>First Name</label>
-            <input type="text" class="first-name" data-bind="value: FirstName, uniqueName: true"/>
-        </div>
-        <div class="last-name">
-            <label>Last Name</label>
-            <input type="text" class="last-name" data-bind="value: LastName, uniqueName: true"/>
-        </div>
-        <div class="position">
-            <label>Position</label>
-            <input type="text" class="position" data-bind="value: Position, uniqueName: true"/>
-        </div>
-        <div class="actions">
-            <button class="remove" data-bind="click: $parent.removePerson">Remove</button>
+<h2>People <span data-bind="text: '('  + people().length +')'"></span> <button id="AddPerson" data-bind="click: addPerson">Add Person</button></h2>
+@using(Html.BeginForm("SaveAll", "People", FormMethod.Post, new { id = "PeopleForm" })) {
+    <div class="people" data-bind="foreach: people">
+        <div class="person">
+            <input type="hidden" data-bind="value: Id, uniqueName: true"/>
+            <div class="first-name">
+                <label>First Name</label>
+                <input type="text" class="first-name" data-val="true" data-val-required="*" data-bind="value: FirstName, uniqueName: true"/>
+            </div>
+            <div class="last-name">
+                <label>Last Name</label>
+                <input type="text" class="last-name" data-val="true" data-val-required="*" data-bind="value: LastName, uniqueName: true"/>
+            </div>
+            <div class="position">
+                <label>Position</label>
+                <input type="text" class="position" data-bind="value: Position, uniqueName: true"/>
+            </div>
+            <div class="actions">
+                <button class="remove" data-bind="click: $parent.removePerson">Remove</button>
+            </div>
         </div>
     </div>
-</div>
+	<div class="actions">
+        <input type="submit" value="Save" />
+	</div>
+}
 
 @section Scripts
 {
 		<script type="text/javascript" src="@Url.Content("~/Scripts/People/index.js")"></script>
     <script type="text/javascript">
+        demo.deletePersonUrl = '@Url.Action("Delete", "People")';
         demo.personModel.init(@Html.Json(Model));
     </script>   
 }

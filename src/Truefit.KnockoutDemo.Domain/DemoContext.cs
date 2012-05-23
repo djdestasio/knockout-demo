@@ -36,7 +36,6 @@ namespace Truefit.KnockoutDemo.Domain
                                  new Person("Scott", "Maxwell"),
                                  new Person("John", "Romesburg"),
                                  new Person("Herb", "Weaver"),
-                                 new Person("Scott", "Maxwell"),
                                  new Person("Brad", "Moeller"),
                                  new Person("Evan", "Dull")
                              };
