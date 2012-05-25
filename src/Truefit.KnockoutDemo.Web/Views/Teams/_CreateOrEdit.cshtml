@@ -1,13 +1,45 @@
-﻿@{
+﻿@model Truefit.KnockoutDemo.Web.Models.TeamModel 
+@{
     ViewBag.Title = "_CreateOrEdit";
 }
 
-<h2>_CreateOrEdit</h2>
 <div id="Container">
     <div id="Editor">
-    
+        @Html.HiddenFor(m => m.Id)
+        <div class="editor-label">
+            @Html.LabelFor(m => m.Name)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.Name, new { data_bind="value: Name"})
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(m => m.Manager)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.Manager)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(m => m.LogoUrl)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.LogoUrl)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(m => m.PrimaryColor)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.PrimaryColor)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(m => m.SecondaryColor)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.SecondaryColor)
+        </div>
+				<div class=""></div>
     </div>
     <div id="Preview">
-        
+        <h3 data-bind="text: Name.length > 0 ? Name : 'Your Team Name Goes Here', style: { color: PrimaryColor, border-color: SecondaryColor }"></h3>
+				<img data-bind="attr: { src: LogoUrl }, visible: LogoUrl.length > 0" alt="Logo"/>
     </div>
 </div>

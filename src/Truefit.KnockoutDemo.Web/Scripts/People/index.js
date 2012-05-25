@@ -3,6 +3,8 @@
 
         var model = function (serverModel) {
             var self = this;
+            
+            // maintains the list of people on the page.
             self.people = ko.observableArray(serverModel || []);
 
             // adds a person.
@@ -20,11 +22,15 @@
 
             // removes a person.
             self.removePerson = function (person) {
-                if (confirm("Are you sure you want to delete this person")) {
-                    var url = demo.deletePersonUrl + '/' + person.Id;
-                    $.post(url, function () {
-                        self.people.remove(person);
-                    });
+                if (person.Id > 0) {
+                    if (confirm("Are you sure you want to delete this person")) {
+                        var url = demo.deletePersonUrl + '/' + person.Id;
+                        $.post(url, function () {
+                            self.people.remove(person);
+                        });
+                    }
+                } else {
+                    self.people.remove(person);
                 }
             };
 
@@ -55,7 +61,7 @@
                     var position = person.Position;
 
                     if (countedPositions.indexOf(position) < 0) {
-                        var matches = ko.utils.arrayFilter(self.people(), function(p) {
+                        var matches = ko.utils.arrayFilter(self.people(), function (p) {
                             return p.Position == position;
                         });
 
@@ -76,8 +82,10 @@
 
                 // hook into validation for save
                 $(document).ready(function () {
-                    $('#PeopleForm').validate({
-                        submitHandler: function (form) {
+                    var $form = $('#PeopleForm');
+
+                    $form.submit(function () {
+                        if ($(this).valid()) {
                             viewModel.save();
                         }
                     });
