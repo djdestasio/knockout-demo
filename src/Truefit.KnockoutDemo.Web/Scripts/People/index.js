@@ -3,7 +3,7 @@
 
         var model = function (serverModel) {
             var self = this;
-            
+
             // maintains the list of people on the page.
             self.people = ko.observableArray(serverModel || []);
 
@@ -88,6 +88,7 @@
                         if ($(this).valid()) {
                             viewModel.save();
                         }
+                        return false;
                     });
                 });
             }
